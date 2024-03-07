@@ -128,7 +128,7 @@ html, body {
 	width: 978px;
 	height: 401px;
 }
-/* 로그인 외곽 프레임 */
+
 .login-main-frame {
 	display: flex;
 	justify-content: flex-start;
@@ -166,97 +166,4 @@ html, body {
 	border-radius: 20px;
 	border-width: 30px;
 	border-color: rgba(255, 255, 255, 0.5);
-}
-
-/* 로그인 창 배경 */
-.login-background {
-	position: absolute;
-	left: 1178px;
-	top: 75px;
-	width: 400px;
-	height: 550px;
-	opacity: 1;
-	overflow: hidden;
-	border-radius: 20px;
-	background-color: blue;
-	align-items: center;
-	text-align: center;
-}
-
-.login_form {
-	text-align: center;
-	margin-top: 50px;
-}
-
-.login_btns {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.login_btns>div {
-	margin-top: 10px; /* Adjust as needed */
-}
-
-.login_item {
-	margin-top: 20px; /* Adjust as needed */
-}
-
-#id {
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 5px;
-}
-
-#pw {
-	border-radius: 5px;
-	padding: 10px;
-	margin-top: 5px;
-}
-
-.logo_bar {
-	align-items: center;
-	display: flex;
-	height: 20rem;
-	left: 7rem;
-	position: absolute;
-	top: 13rem;
-	width: 40rem;
-	background-color: blue;
-	padding: 50px;
-	font-size: 50px;
-}
-
-.login_item {
-	background-color: rgba(110, 53, 130, 0.8500000238);
-	border: solid 0.1rem #33134c;
-	border-radius: 3rem;
-	box-sizing: border-box;
-	display: flex;
-	flex-shrink: 0;
-	padding: 10px;
-	width: 70%;
-}
-
-.easy_login_text {
-	color: #000000;
-	flex-shrink: 0;
-	font-family: Inter, "Source Sans Pro";
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.2125;
-	margin-top: 0.1rem;
-	white-space: nowrap;
-}
-
-.easy_login {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	height: 22.4rem;
-	left: 12.1654rem;
-	position: absolute;
-	row-gap: 0.8rem;
-	top: 40.2rem;
-	width: 33rem;
 }
